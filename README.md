@@ -6,7 +6,7 @@ Therefore, we designed Golfi, a free website providing simple yet powerful tools
 <img src="http://i.imgur.com/ihp9c2T.jpg" width="900">
 
 ### Technologies
-This web appllication is developed using Ruby on Rails, the app uses SQLite3 database on localhost and PostgreSQL on Heroku  
+This web application is developed using Ruby on Rails, the app uses SQLite3 database on localhost and PostgreSQL on Heroku  
 
 ####Run Golfi on Localhost:
 ```
