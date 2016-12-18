@@ -59,5 +59,4 @@ class PlayersController < ApplicationController
             redirect_to organizers_update_path(:tournament_id => params[:player][:tournament_id])
         end
     end
-
 end
