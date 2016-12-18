@@ -18,14 +18,7 @@
     <body>
         <!--Rendering global header-->
         <%= render "layouts/header" %>
-        <!-- Page Content -->
-        <!-- don't know why container is having a weird padding, commenting it for now -->
-        <!-- <div class="container"> -->
-            <!-- render from controllers -->
             <%= yield %>
-        <!-- </div> -->
-        <!-- /.container -->
-        <!--Rendering global footer-->
         <%= render "layouts/footer" %>
     </body>
 </html>

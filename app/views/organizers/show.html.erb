@@ -32,7 +32,6 @@
                 </td>
                 <% end %>
 
-
                 <td><%= form_for(:sub_admin, :url => {:controller => 'sub_admins', :account_id => t.account_id, :tournament_id =>t.tournament_id, :action => 'create'}) do |f| %>
                   <%= f.label :approve, "Yes", :value => "true"  %>
                   <%= f.radio_button :approve, true %>
@@ -41,7 +40,6 @@
                   <%= f.submit "update"%>
                 </td>
                 <% end %>
-
             </tr>
             <% end %>
         </tbody>
