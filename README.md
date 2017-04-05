@@ -8,13 +8,13 @@ Therefore, we designed Golfi, a free website providing simple yet powerful tools
 ### Technologies
 This web application is developed using Ruby on Rails, the app uses SQLite3 database on localhost and PostgreSQL on Heroku  
 
-####Run Golfi on Localhost:
+#### Run Golfi on Localhost:
 ```
 bundle install --without production
 rake db:migrate
 rails server
 ```
-####Push to Heroku
+#### Push to Heroku
 For the first time push, run the following command:
 ```
 heroku git:remote -a <Your Heroku App Name>
@@ -24,7 +24,7 @@ To deploy to Heroku and update database:
 git push heroku master
 heroku run rake db:migrate
 ```
-###Development Team
+### Development Team
 * Anqi Wu
 * YiZheng Yang
 * Yuxuan Zhang
